@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Use https://picsum.photos to display images -->
+  <!-- Hero section-->
+  <div class="hero">
+    <!-- Overlay Div for background dimming -->
+    <div class="overlay"></div>
+    <header class="header">
+      <h1 class="logo">TRAVEL<span>BLOG</span></h1>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero-content">
+      <h1>Welcome to Travel Blog:<br/> Insights, Inspiration, and More!</h1>
+      <hr>
+      <p>Insights, inspiration, and practical advice on a wide range of topics. 
+        Whether you're looking for the latest trends, expert tips, or simply a 
+        bit of inspiration to brighten your day!
+      </p> 
+      <a class="scroll-to">Scroll to articles</a>
+
+    </div>
+  </div>
+
+    <!-- Articles -->
+    <section id="article" class="articles"> 
+      <header class="blog-cards-heading">
+        <div class="heading-title">
+          <h1>Latest articles</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    
+
+        <nav class="article-nav">
+          <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Adventure</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Branding</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="blog-cards">
+        <div class="cards">
+          <img src="https://picsum.photos/310/280?random=1" alt="placeholder"/>
+          <div class="card-text">
+            <p class="datetime">08.08.2021</p>
+            <h4 class="card-heading">Lorem ispum dolor sit amet ipsum dolor ipsum</h4>
+            <p class="description">Why do programmers prefer dark mode? 
+            Because light attracts bugs! Lorem ipsum dolor sit amet hue hue</p>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="https://picsum.photos/310/280?random=2" alt="placeholder"/>
+          <div class="card-text">
+            <p class="datetime">08.08.2021</p>
+            <h4 class="card-heading">Lorem ispum dolor sit</h4>
+            <p class="description">Progressively incentivize cooperative systems through
+               technically sound functionalities. The credibly productivate seamless 
+               data.</p>
+          </div>
+          
+        </div>
+        <div class="cards">
+          <img src="https://picsum.photos/310/280?random=3" alt="placeholder"/>
+          <div class="card-text">
+            <p class="datetime">08.08.2021</p>
+            <h4 class="card-heading">Dream destinations to visit this year</h4>
+            <p class="description">Progressively incentivize cooperative systems through
+              technically sound functionalities. The credibly productivate seamless 
+              data</p>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="https://picsum.photos/310/280?random=4" alt="placeholder"/>
+          <div class="card-text">
+            <p class="datetime">08.08.2021</p>
+            <h4 class="card-heading">Dream destinations to visit this year</h4>
+            <p class="description">Progressively incentivize cooperative systems through
+              technically sound functionalities. The credibly productivate seamless 
+              data</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="sig-in">
+      <header>
+        <h2>Sign in</h2>
+      </header>
+      <form action="" method="post">
+        <fieldset>
+          <label for="">Name</label>
+          <input type="text">
+
+          <label for="">Surname</label>
+          <input type="text" id="surname" name="surname">
+          <legend>Personal Details</legend>
+        </fieldset>
+        <fieldset>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" 
+          required>
+
+          <label for="">Password</label>
+          <input type="text">
+          <legend>Login Details</legend>
+        </fieldset>
+        <fieldset>
+          <div class="content-side">
+            <label for="content">Content</label>
+            <input type="textarea" id="content" name="content" placeholder="Enter your email" 
+            required>
+
+          </div>
+          
+          <div class="consent-side">
+            <label for="consent-one">
+              <input type="checkbox" id="consent-one" name="consent-one" 
+              value="consent-one" >
+              Consent one
+            </label>
+            
+            <label for="consent-two">
+              <input type="checkbox" id="consent-two" name="consent-two" 
+              value="consent-one" checked>
+              Consent two
+            </label>
+            <input type="submit" value="submit">
+          </div>
+          <legend>Consent Details</legend>
+          
+        </fieldset>
+      </form>
+
+    </section>
+    <footer class="footer">
+      <div class="contact">
+        <h3>Contact the Publisher</h3>
+        <ul>
+          <li><a href="mailto:emiress921@gmail.com">example@email.com</a></li>
+          <li><a href="tel:+944450904505">+944 450 904 505</a></li>
+        </ul>
+      </div>
+      <div class="footer-column explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="#jobs">Job Opportunities</a></li>
+          <li><a href="#advertise">Advertise</a></li>
+          <li><a href="#membership">Membership</a></li>
+        </ul>
+      </div>
+      <div class="footer-column address">
+        <h3>Headquarters</h3>
+        <p>1999 Middleville,
+          NY 1001, New York
+          USA</p>
+
+      </div>
+      <div class="footer-row">
+        <p> 2024 | Travel Blog</p>
+        <a href="#">Subscribe Now</a>
+      </div>
+    </footer>
+
+
+    
+
+
+
+
+  
+</body>
+</html>
