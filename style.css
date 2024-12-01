@@ -176,3 +176,56 @@ html{
     background-color:
 }
 
+/* footer */
+footer{
+    background-color: #212529;
+    font-family: 'Lora', serif;
+    color:#FFFFFF;
+    
+    
+}
+.footer-main{
+    padding: 80px 75px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 150px;
+}
+.footer-column h3{
+    font-size: 18px;
+}
+.footer-column ul{
+    
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;     
+}
+
+.footer-column ul li{
+    padding-top: 20px;
+}
+
+.footer-column ul li a {
+    font-size: 12px;
+    text-decoration: none; 
+    color: #FFFFFF;
+    
+    
+    
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #343A40;
+    font-size: 14px;
+}
+.footer-row a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    
+}
+.footer-column p{
+    padding-top: 20px;
+    font-size: 12px;
+}
