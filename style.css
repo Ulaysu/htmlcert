@@ -221,8 +221,8 @@ html{
 
 }
 .cards img{
-    width: 310px;
-    height: 280px;
+    width: 100%;
+    height: auto;
     border-radius: 10px 10px 0 0;
 }
 
@@ -239,7 +239,33 @@ html{
     margin: 5px 0; 
     font-size: 12px;
 }
+/* Responsiveness for Article */
+@media (max-width: 768px) {
+    .heading-title h1 {
+        font-size: 1.8rem;  
+    }
 
+    .heading-title p {
+        font-size: 1rem;  
+    }
+
+    .article-nav ul {
+        justify-content: center;
+        align-items: center;  
+        gap: 10px;
+    }
+
+    .blog-cards {
+        justify-content: center; 
+        gap: 20px;
+    }
+
+    .cards {
+        width: 100%;  
+        max-width: 350px;  
+        height: auto;  
+    }
+}
 .sign-in{
     background-color:
 }
