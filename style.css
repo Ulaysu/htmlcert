@@ -241,8 +241,8 @@ footer{
     }
 
     .footer-row {
-        flex-direction: column; /* Stack items in the footer row */
-        text-align: center; /* Center the footer row content */
+        /*flex-direction: column; /* Stack items in the footer row */
+        /*text-align: center; /* Center the footer row content */
         padding: 10px 20px;
     }
 }
@@ -254,7 +254,7 @@ footer{
     }
 
     .footer-column h3 {
-        font-size: 14px; /* Adjust heading size for smaller screens */
+        font-size: 18px; /* Adjust heading size for smaller screens */
     }
 
     .footer-column ul li a {
