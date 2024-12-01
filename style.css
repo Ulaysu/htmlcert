@@ -8,7 +8,8 @@ html{
     padding: 0;
     margin: 0;
 }
-.hero{
+
+.hero {
     position: relative;
     background-image: url(https://picsum.photos/1440/1000);
     background-size: cover; 
@@ -16,44 +17,48 @@ html{
     background-repeat: no-repeat;
     height: 95vh;
     width: 100%;
-    
 }
+
 .hero .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Black with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.3); 
     z-index: 0;
-  }
-.header{
+}
+
+
+.header {
     position: relative;
     height: 80px;
     background: #00000033;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding: 0 4%;
     z-index: 1;
 }
-.logo{
+
+.logo {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: #D4A373;
-
 }
-.logo span{
+
+.logo span {
     color: white;
 }
-.nav-links ul{
+
+.nav-links ul {
     display: flex;
     gap: 24px;
     list-style-type: none;
     margin: 0; 
     padding: 0;     
 }
+
 .nav-links ul li a {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 14px;
@@ -62,45 +67,108 @@ html{
     padding: 5px 10px; 
     transition: color 0.3s ease;
 }
-/*.hero-content {
-    text-align: center;
-    
-    
-}*/
+
+.nav-links ul li a:hover {
+    color: #D4A373; 
+}
+
+/* Hero Content */
 .hero-content {
     position: relative;
-    display: flex; /* Flexbox layout for content alignment */
+    display: flex; 
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
     max-width: 700px; 
     width: 90%; 
     padding: 1rem; 
-    margin: 10% auto; /* Center with a specific vertical margin (matches `top`) in figma */
+    margin: 10% auto; 
     height: auto; 
-    border: 1px solid transparent; 
     text-align: center; 
-    opacity: 1;
     color: white;
     z-index: 1;
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
-.hero-content p{
+
+.hero-content p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.88rem;
+    font-size: 1rem;
     max-width: 400px;
-    
+    line-height: 1.6;
+    margin-bottom: 2rem;
 }
-.hero-content hr{
+
+.hero-content hr {
     border: 1px solid white;
     height: 1px;
     width: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 1.5rem 0;
 }
+
+.scroll-to {
+    padding: 10px 50px;
+    border: 1px solid #D4A373;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: transparent;
+    transition: background-color 0.3s;
+}
+
+.scroll-to:hover {
+    background-color: #D4A373;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto; 
+        
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .scroll-to {
+        padding: 10px 30px; 
+        font-size: 0.9rem;
+    }
+
+    .nav-links ul {
+        
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+    }
+
+    .scroll-to {
+        padding: 8px 20px;
+        font-size: 0.8rem;
+    }
+
+    .nav-links ul {
+        gap: 8px;
+    }
+}
+
 .articles{
     margin: 50px auto 50px;
     width: 95%;
@@ -147,8 +215,8 @@ html{
     border-radius: 10px;
     overflow: hidden;
     display: flex;
-    flex-direction: column; /* Ensures vertical alignment */
-    overflow: hidden; /* Avoids content spill */
+    flex-direction: column; 
+    overflow: hidden; 
 
 
 }
@@ -159,16 +227,16 @@ html{
 }
 
 .cards .card-text {
-    padding: 20px; /* Space inside the card */
+    padding: 20px; 
 }
 
 .cards .card-text h4 {
-    margin: 10px 0; /* Vertical spacing for headings */
+    margin: 10px 0; 
     font-size: 18px;
 }
 
 .cards .card-text p {
-    margin: 5px 0; /* Vertical spacing for paragraphs */
+    margin: 5px 0; 
     font-size: 12px;
 }
 
@@ -176,3 +244,92 @@ html{
     background-color:
 }
 
+/* footer */
+footer{
+    background-color: #212529;
+    font-family: 'Lora', serif;
+    color:#FFFFFF;
+    
+    
+}
+.footer-main{
+    padding: 80px 75px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 150px;
+}
+.footer-column h3{
+    font-size: 18px;
+}
+.footer-column ul{
+    
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;     
+}
+
+.footer-column ul li{
+    padding-top: 20px;
+}
+
+.footer-column ul li a {
+    font-size: 12px;
+    text-decoration: none; 
+    color: #FFFFFF;
+    
+    
+    
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #343A40;
+    font-size: 14px;
+}
+.footer-row a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    
+}
+.footer-column p{
+    padding-top: 20px;
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .footer-main {
+        justify-content: center; 
+        gap: 30px; 
+    }
+
+    .footer-column {
+        flex: 1 1 100%; 
+        text-align: center; 
+    }
+
+    .footer-row {
+        
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-main {
+        padding: 20px; 
+        gap: 20px; 
+        flex-wrap: wrap;
+    }
+
+    .footer-column h3 {
+        font-size: 18px; 
+    }
+
+    .footer-column ul li a {
+        font-size: 12px; 
+    }
+
+    .footer-row {
+        font-size: 12px; 
+        padding: 10px 20px;
+    }
+}
