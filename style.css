@@ -173,7 +173,7 @@ html{
 }
 
 .articles{
-    margin: 50px auto 50px;
+    margin: 50px auto 100px;
     width: 95%;
     font-family: 'Monserrat',sans-serif;
     border: 1px solid yellowgreen;
@@ -207,6 +207,13 @@ html{
     transition: color 0.3s ease;
     font-weight: bold;
 }
+.article-nav ul li a:hover {
+    color: #D4A373;
+}
+.article-nav ul li a:active{
+    color: #D4A373;
+}
+
 .blog-cards{
     margin-top: 50px;
     font-family: 'Open Sans';
@@ -324,6 +331,7 @@ html{
     background-color: #EFEFEF;
     font-family: 'Open Sans', sans-serif;
     padding: 50px 0;
+   
 }
 
 .form-area{
