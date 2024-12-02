@@ -176,7 +176,7 @@ html{
     margin: 50px auto 100px;
     width: 95%;
     font-family: 'Monserrat',sans-serif;
-    border: 1px solid yellowgreen;
+    
     
 }
 .heading-title{
@@ -224,7 +224,7 @@ html{
     padding: 0;
     margin: auto;
     width: 100%;
-    border: 1px solid red;
+    
 }
 .cards{
     flex: 1;
