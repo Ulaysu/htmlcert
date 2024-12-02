@@ -301,8 +301,28 @@ html{
         height: auto; 
     }
 }
+
+/* Form*/
 .sign-in{
-    background-color:
+    background-color: #EFEFEF;
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0;
+}
+
+.form-area{
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.form-control{
+    border: 1px solid red;
+    display: flex;
+    gap: 100px
+
+}
+.child{
+    flex: 1;
+    border: 1px solid blue;
 }
 
 /* footer */
