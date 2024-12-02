@@ -470,7 +470,7 @@ footer{
     padding: 80px 75px;
     display: flex;
     justify-content: flex-start;
-    gap: 300px;
+    gap: 170px;
 }
 .footer-column h3{
     font-size: 1.12rem;
